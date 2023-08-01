@@ -7,7 +7,7 @@ Create an algorithm that inserts the numbers from 1 to 135 into an array, while 
 function fizz(){
     let result = [];
     for (let i =0 ; i<135 ; i++){
-        if (i%3 === 0 & i%5=== 0 && i!=0){
+        if (i%3 === 0 && i%5=== 0 && i!=0){
             result.push("fizzbuzz")}
         else if (i%3===0 && i!=0){
             result.push ("fizz");
